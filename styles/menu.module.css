@@ -1,0 +1,21 @@
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow:  0 0 10px rgba(10, 10, 10, 0.5);
+    justify-content: space-around;
+}
+
+.container > div {
+    display: flex;
+}
+
+.links {
+    display: block;
+    padding: 15px
+}
+
+.links:hover{
+    background-color: rgba(35, 89, 14, 0.674);
+    color: rgb(8, 7, 7);
+}
